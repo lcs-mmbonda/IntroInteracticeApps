@@ -30,6 +30,11 @@ struct ContentView: View {
                     
                     
             }
+            
+            Stepper(value: $base, label: {
+                Text("Base")
+            })
+            
             Spacer()
             
             
